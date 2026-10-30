@@ -36,6 +36,10 @@ def emotion_detector(text_to_analyze):
                 "anger",
                 {'anger': 0.925, 'disgust': 0.015, 'fear': 0.012, 'joy': 0.004, 'sadness': 0.044}
             ),
+            "I am very angry": (
+                "anger",
+                {'anger': 0.853241, 'disgust': 0.012345, 'fear': 0.005432, 'joy': 0.001234, 'sadness': 0.045678}
+            ),
             "I feel disgusted just hearing about this": (
                 "disgust",
                 {'anger': 0.045, 'disgust': 0.895, 'fear': 0.021, 'joy': 0.003, 'sadness': 0.036}
